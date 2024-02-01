@@ -24,7 +24,7 @@ function ShowDetails() {
       <h2>{showDetails.name}</h2>
       <p>{showDetails.summary}</p>
       <button>Book Movie Ticket</button>
-      <Link to="/" > <button className='button2' >Go  Back</button>
+      <Link to="/tv_shows" > <button className='button2' >Go  Back</button>
          </Link>
     </div>
   );

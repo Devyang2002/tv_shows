@@ -21,7 +21,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<ShowList shows={shows} />} />
+          <Route path="/tv_shows" element={<ShowList shows={shows} />} />
           <Route path="/show/:id" element={<ShowDetails />} />
         </Routes>
         <Footer />
